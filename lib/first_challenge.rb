@@ -17,6 +17,6 @@ def first_challenge
   first_challenge["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|x| x == "strawberry" }
 
   #remember to return your newly altered contacts hash!
-  contacts
+  contacts["Freddy Mercury"][:favorite_icecream_flavors]
 end
 
